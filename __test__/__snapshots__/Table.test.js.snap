@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div id="app-table">
+  <table>
+    <thead>
+      <tr>
+        <th>
+          item_sold
+          <span> ▼ </span></th>
+        <th>
+          quantity
+          <span> ▼ </span></th>
+        <th>
+          date
+          <span> ▼ </span></th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Eggs</td>
+        <td>20</td>
+        <td>29-01-2019</td>
+      </tr>
+      <tr>
+        <td>Milk</td>
+        <td>2</td>
+        <td>29-01-2019</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component renders correctly without errors 1`] = `
+<div id="modal-component"><button>
+    Add Transaction
+  </button>
+  <!---->
+</div>
+`;
