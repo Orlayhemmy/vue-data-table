@@ -1,28 +1,62 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id='app'>
+    <div class='page-head'>
+      <span class='page-head__page-title'>Transactions</span>
+    </div>
+    <div>
+      <data-table :table-head='tableHead'>
+        <tr v-for='entry in tableData' v-bind:key='entry[".key"]'>
+          <td>{{entry.name}}</td>
+          <td>{{entry.description}}</td>
+          <td>{{entry.amount}}</td>
+          <td>{{entry.date}}</td>
+          <td>&#x1f5d1;</td>
+        </tr>
+      </data-table>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Table from './components/Table.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  }
-}
+    'data-table': Table
+  },
+  data() {
+    return {
+      tableHead: [
+        {
+          title: 'Name',
+          sortable: false,
+        },
+        {
+          title: 'Description',
+          sortable: false,
+        },
+        {
+          title: 'Amount',
+          sortable: true,
+        },
+        {
+          title: 'Date',
+          sortable: true,
+        }
+      ]
+    };
+  },
+  computed: {
+    tableData() {
+      return this.$store.getters.tableData;
+    },
+  },
+  created() {
+    this.$store.dispatch('getTransactions');
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang='scss' scoped>
+@import './assets/styles/app.scss';
 </style>

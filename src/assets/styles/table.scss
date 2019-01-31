@@ -1,0 +1,56 @@
+@import './variables';
+
+table {
+  width: 80%;
+  margin: 50px auto; 
+  border-collapse: collapse;
+
+  thead {
+    background-color: map-get($color, 'thead');
+    color: $color-white;
+    th {
+      padding: 5px;
+
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      line-height: 80px;
+
+      td {
+        img {
+          width: 15px;
+          height: 15px;
+          display: none;
+        }
+      }
+
+      td:nth-child(1), td:nth-child(2) {
+        text-align: left;
+        padding: 0 15px;
+      }
+
+      td:nth-child(2) {
+      td:last-child {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+    tr:hover {
+      background-color: map-get($color, 'hover') !important;
+
+        img {
+          display: flex;
+        }
+    }
+
+    tr:nth-child(even) {
+      background-color: $color-white;
+    }
+  }
+}
