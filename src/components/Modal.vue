@@ -16,7 +16,7 @@
 <script>
 export default {
   name: 'modal-component',
-  props: ['actionButtonText', 'title', 'handleSubmit', 'extraAction'],
+  props: ['actionButtonText', 'title', 'handleSubmit'],
   data() {
     return {
       isVisible: false,
