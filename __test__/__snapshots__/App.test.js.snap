@@ -1,0 +1,1442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue should setup without errors 1`] = `
+<div id="app">
+  <div class="page-head"><span class="page-head__page-title">Transactions</span>
+    <div class="filter">
+      <div id="modal-component"><button>
+          Filter
+        </button>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="app-table">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Name
+              <!---->
+            </th>
+            <th>
+              Description
+              <!---->
+            </th>
+            <th>
+              Amount
+              <span> ▼ </span></th>
+            <th>
+              Date
+              <span> ▼ </span></th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kyra Lester</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Curabitur dictum. Phasellus in
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>345.54</td>
+            <td>2017-07-23T04:24:49-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Buckminster Alvarado</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dui, in sodales elit erat vitae risus. Duis a mi
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>677.08</td>
+            <td>2018-11-08T05:44:15-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Athena Smith</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                massa lobortis ultrices. Vivamus rhoncus.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>73.67</td>
+            <td>2018-11-11T06:19:57-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Cameron Thompson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dolor. Fusce mi lorem, vehicula et, rutrum eu,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>807.6</td>
+            <td>2019-09-30T06:56:15-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Dawn Alford</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Pellentesque ut ipsum
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>820.96</td>
+            <td>2019-03-06T13:24:31-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Barclay Sears</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sit amet ultricies sem magna
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>116.36</td>
+            <td>2019-10-28T04:57:29-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>James Melton</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>956.72</td>
+            <td>2019-03-13T09:43:05-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Medge Powell</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                elit sed
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>726.37</td>
+            <td>2018-01-19T20:33:11-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Lucas Ray</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                morbi tristique senectus
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-439.33</td>
+            <td>2017-06-19T14:05:17-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Wang Stevens</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ipsum
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>638.14</td>
+            <td>2018-02-12T09:36:23-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Dalton Carey</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                lectus justo eu arcu. Morbi sit amet massa. Quisque
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>602.37</td>
+            <td>2018-07-31T15:51:48-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Jackson Noel</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dui,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-319.59</td>
+            <td>2019-03-16T03:52:39-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Ariana Kennedy</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>618.05</td>
+            <td>2018-09-07T09:06:19-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Bevis Mcfadden</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sagittis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>400.65</td>
+            <td>2019-01-22T10:28:19-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Kasimir Byrd</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ridiculus mus. Donec dignissim
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>159.61</td>
+            <td>2017-09-30T17:57:57-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Ava Sargent</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Cum sociis natoque
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>462.91</td>
+            <td>2017-08-20T20:20:34-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Gray Keith</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                interdum. Curabitur dictum. Phasellus in felis. Nulla tempor
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-792.3</td>
+            <td>2018-12-26T09:43:45-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Neil Clemons</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                molestie. Sed id
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>337.64</td>
+            <td>2019-06-14T02:43:16-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Tad Knapp</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Donec egestas. Duis ac arcu. Nunc mauris. Morbi
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>932.52</td>
+            <td>2018-02-23T23:41:07-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>April Fields</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                urna convallis erat, eget tincidunt dui augue
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>865.94</td>
+            <td>2019-03-04T20:58:53-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Lester Mayer</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                erat. Sed nunc est, mollis non,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>335.28</td>
+            <td>2019-05-20T11:56:46-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Harriet Castillo</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                orci. Ut semper pretium neque.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>283.23</td>
+            <td>2019-10-25T12:19:40-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Aubrey Sheppard</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                tellus sem mollis dui, in sodales elit erat vitae risus.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>689.31</td>
+            <td>2018-07-14T05:07:40-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Sebastian Baldwin</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                rhoncus. Donec est. Nunc
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>172.09</td>
+            <td>2018-06-12T00:32:55-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Emerald Rice</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                lobortis risus. In mi pede,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>564.16</td>
+            <td>2017-12-19T11:59:39-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Britanni Beck</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ac
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>722.49</td>
+            <td>2018-04-04T18:42:22-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Quon Herring</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                lobortis augue scelerisque mollis. Phasellus libero mauris,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>847.41</td>
+            <td>2018-06-21T17:18:42-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Hedley Parks</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                adipiscing non,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-128.23</td>
+            <td>2019-03-07T23:56:56-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Randall Walters</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                mattis velit justo nec
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>216.91</td>
+            <td>2018-06-13T20:07:59-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Trevor Reilly</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                placerat eget, venenatis a, magna. Lorem ipsum dolor
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>165.99</td>
+            <td>2019-08-16T08:24:47-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Steel Delgado</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>214.03</td>
+            <td>2019-01-21T05:04:05-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Knox Mendoza</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                diam vel arcu. Curabitur ut
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>287.03</td>
+            <td>2019-09-01T22:29:06-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Mark Benjamin</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>521.11</td>
+            <td>2017-08-02T07:48:03-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Louis Clemons</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                est,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-423.98</td>
+            <td>2019-06-14T16:53:44-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Virginia Aguilar</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ante lectus convallis est,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>869.45</td>
+            <td>2017-08-29T12:49:59-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Axel Fuller</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dapibus ligula. Aliquam erat
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>294.95</td>
+            <td>2019-01-31T15:26:13-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Palmer Medina</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                leo, in lobortis tellus justo
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>530.27</td>
+            <td>2019-04-15T20:56:08-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Isabelle Fitzgerald</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                egestas
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>377.87</td>
+            <td>2019-02-18T05:45:45-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Dante Morris</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                in, tempus eu, ligula. Aenean euismod mauris eu
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>11.47</td>
+            <td>2017-06-16T07:47:35-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Rajah Blake</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                feugiat. Lorem
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>186.33</td>
+            <td>2018-11-15T18:13:06-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Tatyana Hester</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nec mauris blandit
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>33.9</td>
+            <td>2018-05-07T23:18:26-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Yael Horn</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>251.97</td>
+            <td>2018-04-05T03:39:20-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Christopher May</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Cum sociis natoque penatibus et magnis dis parturient
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-747.92</td>
+            <td>2017-07-12T19:50:08-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Bertha Strong</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                hendrerit.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>420.64</td>
+            <td>2018-05-22T00:16:48-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Darryl Rosario</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>44.99</td>
+            <td>2018-06-24T20:25:09-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Joan Bean</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                risus. Nulla eget metus eu erat
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>313.18</td>
+            <td>2017-05-04T10:11:50-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Hedda Rowe</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                egestas nunc sed libero. Proin sed turpis nec
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>412.51</td>
+            <td>2019-06-30T04:29:56-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Davis Warner</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dolor. Nulla semper tellus id nunc
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>175.14</td>
+            <td>2017-10-10T11:22:10-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Tasha Rodriquez</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>285.6</td>
+            <td>2018-10-01T08:03:47-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Kiona Stephens</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                purus sapien,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>271.16</td>
+            <td>2018-04-01T16:54:28-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Connor Harding</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                In
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>814.88</td>
+            <td>2017-12-30T00:57:37-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Ferris Gallagher</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nec tempus scelerisque, lorem
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>156.74</td>
+            <td>2018-03-03T00:27:51-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Aurelia Pearson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-637.04</td>
+            <td>2018-11-15T19:15:30-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Patience Schultz</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                lobortis quam a felis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>426.17</td>
+            <td>2018-04-24T07:38:38-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Vernon Fischer</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                eu sem. Pellentesque ut
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>953.61</td>
+            <td>2018-01-28T08:58:47-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Beck Frank</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                luctus lobortis. Class aptent taciti
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>451.62</td>
+            <td>2018-12-02T07:56:07-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Kadeem Buchanan</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Donec porttitor tellus non magna. Nam
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-333.55</td>
+            <td>2019-09-13T02:27:42-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Ezekiel Carey</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                eu turpis. Nulla aliquet.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>451.17</td>
+            <td>2019-08-25T00:47:31-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Florence Mcmillan</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Quisque purus sapien, gravida
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>953.54</td>
+            <td>2018-01-27T10:53:39-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Wendy Parrish</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                condimentum
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-546.89</td>
+            <td>2018-10-24T12:02:31-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Allistair Cantrell</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                enim nec tempus
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>454.62</td>
+            <td>2019-05-31T12:33:10-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Lael Ingram</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Cras vehicula aliquet libero. Integer in magna. Phasellus dolor
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>320.69</td>
+            <td>2017-05-09T13:11:55-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Paul Kirkland</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                aliquet lobortis, nisi nibh
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>135.2</td>
+            <td>2019-02-14T00:29:32-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Inez Ruiz</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nisl arcu iaculis enim, sit amet ornare
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-636.08</td>
+            <td>2019-01-23T09:23:52-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Tiger Larson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Nulla semper tellus id nunc
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>564.5</td>
+            <td>2019-07-20T14:51:13-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Lev Hardy</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                elementum, lorem ut aliquam iaculis, lacus pede sagittis augue,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>292.09</td>
+            <td>2019-01-24T13:16:30-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Cally Mcguire</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                in consequat enim diam vel arcu. Curabitur ut odio vel
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>123.53</td>
+            <td>2019-03-25T10:53:00-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>India Gregory</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                magna tellus
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>343.79</td>
+            <td>2017-07-17T01:31:50-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Hedy Vance</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                et, euismod et,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>333.7</td>
+            <td>2018-03-21T00:30:14-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Keane Fisher</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                pellentesque
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-476.18</td>
+            <td>2019-07-10T23:05:49-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Madaline Roach</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sit amet nulla. Donec non justo. Proin
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>756.1</td>
+            <td>2018-09-27T13:32:37-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Jamalia Nixon</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                id sapien.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>302.84</td>
+            <td>2019-08-09T04:16:20-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Byron Morse</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ultrices iaculis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>356.93</td>
+            <td>2018-10-05T12:58:32-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Kirby Hendricks</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                pede. Cras vulputate velit eu sem. Pellentesque
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>97.47</td>
+            <td>2018-11-19T13:14:37-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Jada Ferrell</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                risus. Duis a mi fringilla mi lacinia
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>327.01</td>
+            <td>2019-05-02T03:47:48-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Aimee Davidson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sodales nisi magna sed dui. Fusce aliquam,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-223.23</td>
+            <td>2019-08-01T05:42:16-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Salvador Robinson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                condimentum. Donec
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>153.83</td>
+            <td>2018-07-12T12:04:16-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Brooke May</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nibh. Donec est mauris, rhoncus
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>802.19</td>
+            <td>2018-07-15T06:03:48-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Beverly Grimes</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sollicitudin a, malesuada
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>126.25</td>
+            <td>2019-08-07T17:08:36-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Iona Newton</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sed orci lobortis augue
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>403.7</td>
+            <td>2017-06-15T14:19:32-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Brandon Hoover</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                malesuada id, erat.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>967.89</td>
+            <td>2018-11-09T21:07:01-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Ashely Johnston</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                commodo
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>90.81</td>
+            <td>2017-06-16T15:38:40-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Nichole Guzman</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                arcu. Curabitur ut odio vel est
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>465.53</td>
+            <td>2018-02-16T03:12:10-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Nyssa Daniel</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                euismod urna. Nullam lobortis quam a felis ullamcorper viverra.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>496.15</td>
+            <td>2018-02-27T13:55:13-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Cameron Walters</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sagittis semper. Nam tempor diam dictum sapien. Aenean
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>430.33</td>
+            <td>2017-09-10T06:57:41-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Malik Woodard</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                nisi. Aenean eget metus. In nec orci. Donec nibh.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-105.48</td>
+            <td>2017-11-01T13:41:06-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Cora Kinney</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                molestie. Sed id risus quis diam luctus lobortis. Class aptent
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>581.44</td>
+            <td>2019-02-24T23:29:42-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Patricia Valentine</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                est ac
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>20.19</td>
+            <td>2018-10-11T08:44:36-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Azalia Harrell</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Mauris magna. Duis dignissim tempor arcu. Vestibulum ut
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>867.99</td>
+            <td>2019-09-02T20:20:37-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Tarik Herman</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                ante dictum mi, ac mattis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>404.63</td>
+            <td>2018-12-31T19:29:31-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Signe Moody</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                mauris eu elit. Nulla facilisi. Sed
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>330.95</td>
+            <td>2017-09-15T18:33:36-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Cameron Tate</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>593.45</td>
+            <td>2019-07-29T01:18:22-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Omar Tillman</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                vulputate velit eu sem.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-596.23</td>
+            <td>2017-11-02T10:50:11-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Leroy Parsons</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                dignissim pharetra. Nam ac nulla. In tincidunt congue turpis.
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>566.14</td>
+            <td>2018-01-10T11:33:14-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Iliana Dotson</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                sodales at,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>-180.4</td>
+            <td>2018-05-06T19:52:47-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Galena Chavez</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Quisque tincidunt pede ac
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>682.43</td>
+            <td>2018-06-30T12:41:49-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Laurel Chen</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Nunc sed orci lobortis
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>381.91</td>
+            <td>2017-09-01T18:45:23-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Dillon Mccoy</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                est ac mattis semper, dui lectus rutrum urna,
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>597.5</td>
+            <td>2018-03-21T20:03:56-07:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Eve Bryan</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                id risus quis diam luctus lobortis. Class aptent taciti
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>594.32</td>
+            <td>2018-12-07T07:08:35-08:00</td>
+            <td>🗑</td>
+          </tr>
+          <tr>
+            <td>Denise Walsh</td>
+            <td>
+              <div class="dt_description" style="display: none;">
+                Mauris
+                <img src="./assets/images/edit.svg" alt="edit-icon"></div>
+              <div class="dt_description_input"><input type="text">
+                <div class="action-buttons"><span>✓</span> <span>✕</span></div>
+              </div>
+            </td>
+            <td>946.99</td>
+            <td>2017-07-18T08:53:37-07:00</td>
+            <td>🗑</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
