@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Orlayhemmy/vue-data-table.svg?branch=master)](https://travis-ci.org/Orlayhemmy/vue-data-table)
+[![Coverage Status](https://coveralls.io/repos/github/Orlayhemmy/vue-data-table/badge.svg?branch=master)](https://coveralls.io/github/Orlayhemmy/vue-data-table?branch=master)
 
 # data-table
 ```
