@@ -1,5 +1,8 @@
 # data-table
+```
 [https://vue-data-table.herokuapp.com](https://vue-data-table.herokuapp.com)
+```
+
 This is a web application that displays data on table and also provides the functionalities like filtering, sorting and also editing of the data on the table.
 ## Project setup
 ```
