@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Orlayhemmy/vue-data-table.svg?branch=master)](https://travis-ci.org/Orlayhemmy/vue-data-table)
+
 # data-table
 ```
 [https://vue-data-table.herokuapp.com](https://vue-data-table.herokuapp.com)
