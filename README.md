@@ -2,9 +2,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/Orlayhemmy/vue-data-table/badge.svg?branch=master)](https://coveralls.io/github/Orlayhemmy/vue-data-table?branch=master)
 
 # data-table
-```
+
 [https://vue-data-table.herokuapp.com](https://vue-data-table.herokuapp.com)
-```
+
 
 This is a web application that displays data on table and also provides the functionalities like filtering, sorting and also editing of the data on the table.
 ## Project setup
