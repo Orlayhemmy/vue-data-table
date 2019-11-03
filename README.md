@@ -20,7 +20,7 @@ in the firebase DB to be fetched based off the filter criteria submitted by the 
 The data-table is deployed to heroku using the heroku cli. It deploys the app based off the master branch.
 
 #### How long did you spend on the test
-I spent 3days working on the project. I would add a loading spinner while the data is being fetched from the DB. I would also paginate the data gotten from the DB 
+I spent 7days working on the project. I would add a loading spinner while the data is being fetched from the DB. I would also paginate the data gotten from the DB 
 so as to prevent the user from scrolling a long way down and improve the user experience.
 
 #### In what ways would you adapt your component so that it could be used in many different scenarios where a data table is required
